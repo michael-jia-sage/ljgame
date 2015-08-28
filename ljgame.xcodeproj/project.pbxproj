@@ -16,6 +16,7 @@
 		0E08C42A1B8ECC3A009DDA98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E08C4291B8ECC3A009DDA98 /* Images.xcassets */; };
 		0E08C42D1B8ECC3A009DDA98 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E08C42B1B8ECC3A009DDA98 /* LaunchScreen.xib */; };
 		0E08C4391B8ECC3A009DDA98 /* ljgameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E08C4381B8ECC3A009DDA98 /* ljgameTests.m */; };
+		0ECBD9461B903B4500247BB5 /* CGPoint+Positions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECBD9451B903B4500247BB5 /* CGPoint+Positions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		0E08C4321B8ECC3A009DDA98 /* ljgameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ljgameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E08C4371B8ECC3A009DDA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E08C4381B8ECC3A009DDA98 /* ljgameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ljgameTests.m; sourceTree = "<group>"; };
+		0ECBD9441B903B4500247BB5 /* CGPoint+Positions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGPoint+Positions.h"; sourceTree = "<group>"; };
+		0ECBD9451B903B4500247BB5 /* CGPoint+Positions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGPoint+Positions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 		0E08C4161B8ECC3A009DDA98 /* ljgame */ = {
 			isa = PBXGroup;
 			children = (
+				0ECBD9431B903A9400247BB5 /* Categories */,
 				0E08C41B1B8ECC3A009DDA98 /* AppDelegate.h */,
 				0E08C41C1B8ECC3A009DDA98 /* AppDelegate.m */,
 				0E08C41E1B8ECC3A009DDA98 /* GameScene.h */,
@@ -125,6 +129,15 @@
 				0E08C4371B8ECC3A009DDA98 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0ECBD9431B903A9400247BB5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0ECBD9441B903B4500247BB5 /* CGPoint+Positions.h */,
+				0ECBD9451B903B4500247BB5 /* CGPoint+Positions.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ECBD9461B903B4500247BB5 /* CGPoint+Positions.m in Sources */,
 				0E08C4251B8ECC3A009DDA98 /* GameViewController.m in Sources */,
 				0E08C41D1B8ECC3A009DDA98 /* AppDelegate.m in Sources */,
 				0E08C4201B8ECC3A009DDA98 /* GameScene.m in Sources */,
@@ -428,6 +442,7 @@
 				0E08C43E1B8ECC3A009DDA98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E08C43F1B8ECC3A009DDA98 /* Build configuration list for PBXNativeTarget "ljgameTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +451,7 @@
 				0E08C4411B8ECC3A009DDA98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
