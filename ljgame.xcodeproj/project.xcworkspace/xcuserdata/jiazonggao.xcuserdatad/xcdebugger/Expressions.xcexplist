@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[GameScene touchesBegan:withEvent:]:GameScene.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.children">
+            </PersistentString>
+            <PersistentString
+               value = "enemy1.position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GameScene initWithSize:]:GameScene.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GameScene touchesMoved:withEvent:]:GameScene.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "aimline.path">
+            </PersistentString>
+            <PersistentString
+               value = "ball.position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GameScene resetView]:GameScene.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sn.zPosition">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
